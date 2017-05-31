@@ -46,3 +46,8 @@ p.legal
 	font-size: 0.6em;
 	color: #ccc;
 }
+
+a {
+	color: lightblue;
+	text-decoration: none;
+}

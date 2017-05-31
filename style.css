@@ -16,11 +16,16 @@ body {
 	font-family: sans-serif;
 }
 
+article, footer
+{
+	padding: 0 2em;
+}
+
 h1
 {
 	font-size: 4em;
 	margin-right: 45%;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 }
 
 ul

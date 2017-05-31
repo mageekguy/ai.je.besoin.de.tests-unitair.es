@@ -30,14 +30,20 @@ ul
 
 ul li
 {
+	color: #666;
 	margin-bottom: 0.6em;
 	list-style-type: square;
 }
 
 strong
 {
-	font-size: 2em;
+	color: #000;
+	font-size: 3em;
 	font-weight: bold;
+}
+
+p {
+	color: #666;
 }
 
 p.legal
@@ -48,6 +54,6 @@ p.legal
 }
 
 a {
-	color: lightblue;
+	color: #0c78df;
 	text-decoration: none;
 }

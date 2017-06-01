@@ -5,6 +5,7 @@ html {
 }
 
 body {
+	color: #000;
 	background-image: url("leak.png");
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -30,6 +31,8 @@ h1
 
 strong
 {
+	text-transform: uppercase;
+	color: #089814;
 	margin: 0 0.5em 0 0;
 	font-size: 5em;
 	font-weight: bold;
@@ -37,7 +40,6 @@ strong
 
 h1, strong
 {
-	color: #000;
 	text-shadow:
 				0 1px 0 #ccc,
 				0 2px 0 #c9c9c9,
@@ -79,4 +81,10 @@ p.legal
 a {
 	color: #0c78df;
 	text-decoration: none;
+}
+
+@media screen and (min-width: 0) and (max-width: 55em) {
+    body {
+        background-image: none;
+    }
 }
